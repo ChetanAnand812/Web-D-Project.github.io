@@ -1,0 +1,93 @@
+/* CSS Reset */
+body {
+    font-family: "Baloo Bahi", cursive;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background: url("https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5008.jpg?size=626&ext=jpg")
+      no-repeat;
+    background-size: 1600px 760px;
+  }
+  .left {
+    position: absolute;
+    left: 33px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+  }
+  .left img {
+    width: 100px;
+    border-radius: 100px;
+  }
+  .left div {
+    text-align: center;
+  }
+
+  .mid {
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+  }
+  .navbar {
+    display: inline-block;
+  }
+  .navbar li {
+    display: inline-block;
+    font-size: 15px;
+  }
+  .navbar li a {
+    color: aqua;
+    text-decoration: none;
+    padding: 30px 23px;
+  }
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration: underline;
+    color: burlywood;
+  }
+
+  .right {
+    position: absolute;
+    right: 34px;
+    top: 37px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+  }
+  .btn {
+    margin: 8px 9px;
+    color: aqua;
+    background-color: black;
+    padding: 3px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "Baloo Bahi", cursive;
+  }
+  .btn:hover {
+    background-color: whitesmoke;
+  }
+
+  .container {
+    border: 2px solid aqua;
+    margin: 95px 80px;
+    padding: 40px;
+    width: 33%;
+    border-radius: 28px;
+  }
+  .form-group input {
+    font-family: "Baloo Bahi", cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+  }
+  .container button{
+      display: block;
+      width: 74%;
+      margin: 25px auto;
+  }
